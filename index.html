@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Responsive SaaS pricing cards with monthly and yearly billing.">
+
+    <title>SimplePlan | Pricing</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="pricing-page">
+
+        <!-- ================= HEADER ================= -->
+
+        <section class="pricing-header">
+
+            <p class="eyebrow">SIMPLEPLAN</p>
+
+            <h1>Choose the right plan for you</h1>
+
+            <p class="subtitle">
+                Flexible pricing designed for individuals, teams and growing businesses.
+            </p>
+
+
+            <!-- Billing Toggle -->
+
+            <div class="billing-toggle">
+
+                <span id="monthlyLabel" class="billing-label active">
+                    Monthly
+                </span>
+
+                <button
+                    id="billingToggle"
+                    class="toggle"
+                    type="button"
+                    aria-label="Switch billing period"
+                    aria-pressed="false"
+                >
+                    <span class="toggle-circle"></span>
+                </button>
+
+                <span id="yearlyLabel" class="billing-label">
+                    Yearly
+                </span>
+
+                <span class="save-badge">
+                    Save 20%
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRICING CARDS ================= -->
+
+        <section class="pricing-grid" aria-label="Pricing plans">
+
+
+            <!-- BASIC PLAN -->
+
+            <article class="pricing-card">
+
+                <div class="card-content">
+
+                    <p class="plan-name">
+                        Starter
+                    </p>
+
+                    <h2>
+                        For individuals getting started
+                    </h2>
+
+                    <div class="price-container">
+
+                        <span class="currency">$</span>
+
+                        <span
+                            class="price"
+                            data-monthly="9"
+                            data-yearly="86"
+                        >
+                            9
+                        </span>
+
+                        <span class="period">
+                            /month
+                        </span>
+
+                    </div>
+
+                    <p class="billing-note">
+                        Billed monthly
+                    </p>
+
+                    <ul class="features">
+
+                        <li>✓ 5 projects</li>
+                        <li>✓ Basic analytics</li>
+                        <li>✓ 5 GB storage</li>
+                        <li>✓ Email support</li>
+
+                    </ul>
+
+                    <button class="plan-button">
+                        Get Started
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- POPULAR PLAN -->
+
+            <article class="pricing-card popular">
+
+                <div class="badge">
+                    Popular
+                </div>
+
+                <div class="card-content">
+
+                    <p class="plan-name">
+                        Professional
+                    </p>
+
+                    <h2>
+                        For professionals and small teams
+                    </h2>
+
+                    <div class="price-container">
+
+                        <span class="currency">$</span>
+
+                        <span
+                            class="price"
+                            data-monthly="19"
+                            data-yearly="182"
+                        >
+                            19
+                        </span>
+
+                        <span class="period">
+                            /month
+                        </span>
+
+                    </div>
+
+                    <p class="billing-note">
+                        Billed monthly
+                    </p>
+
+                    <ul class="features">
+
+                        <li>✓ Unlimited projects</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ 50 GB storage</li>
+                        <li>✓ Priority support</li>
+
+                    </ul>
+
+                    <button class="plan-button primary">
+                        Start Free Trial
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- BUSINESS PLAN -->
+
+            <article class="pricing-card">
+
+                <div class="badge best-value">
+                    Best Value
+                </div>
+
+                <div class="card-content">
+
+                    <p class="plan-name">
+                        Business
+                    </p>
+
+                    <h2>
+                        For growing businesses
+                    </h2>
+
+                    <div class="price-container">
+
+                        <span class="currency">$</span>
+
+                        <span
+                            class="price"
+                            data-monthly="39"
+                            data-yearly="374"
+                        >
+                            39
+                        </span>
+
+                        <span class="period">
+                            /month
+                        </span>
+
+                    </div>
+
+                    <p class="billing-note">
+                        Billed monthly
+                    </p>
+
+                    <ul class="features">
+
+                        <li>✓ Unlimited projects</li>
+                        <li>✓ Premium analytics</li>
+                        <li>✓ 200 GB storage</li>
+                        <li>✓ Dedicated support</li>
+
+                    </ul>
+
+                    <button class="plan-button">
+                        Contact Sales
+                    </button>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= FOOTNOTE ================= -->
+
+        <p class="pricing-note">
+            All plans include a 14-day free trial. No credit card required.
+        </p>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <p>
+            Responsive SaaS Pricing Cards • InternCircle Web Development Internship
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
